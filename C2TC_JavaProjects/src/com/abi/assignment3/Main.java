@@ -1,4 +1,4 @@
-package com.Main.assignment3;
+package com.abi.assignment3;
 
 public class Main {
     public static void main(String[] args) {

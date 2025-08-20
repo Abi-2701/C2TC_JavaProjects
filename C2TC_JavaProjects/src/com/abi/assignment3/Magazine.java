@@ -1,19 +1,16 @@
 package com.abi.assignment3;
 
-//Part A – Inheritance (is-a relationship)
+//Subclass Magazine
+class Magazine extends Item {
+ int issueNumber;
 
-//Base class
-class Item {
- int id;
- String title;
- //Constructor 
- Item(int id, String title) {
-     this.id = id;
-     this.title = title;
+ Magazine(int id, String title, int issueNumber) {
+     super(id, title);
+     this.issueNumber = issueNumber;
  }
- 
- //To display Item info
+
+ @Override
  void displayInfo() {
-     System.out.println("ID: " + id + ", Title: " + title);
+     System.out.println("Magazine: [ID: " + id + ", Title: " + title + ", Issue: " + issueNumber + "]");
  }
 }
