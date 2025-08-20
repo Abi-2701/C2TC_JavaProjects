@@ -1,4 +1,4 @@
-package com.abi.assignment3;
+package com.abi.inheritanceassignment;
 
 //Subclass Magazine
 class Magazine extends Item {

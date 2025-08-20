@@ -1,4 +1,4 @@
-package com.abi.assignment3;
+package com.abi.inheritanceassignment;
 
 public class Main {
     public static void main(String[] args) {
